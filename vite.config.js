@@ -11,15 +11,5 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
-  // Add this esbuild configuration
-  esbuild: {
-    css: {
-      minify: true,
-      // Suppress the specific warning
-      supported: {
-        // This tells ESBuild to treat 'transform' as a known property
-        'css-transform': true
-      }
-    }
-  }
-})
+
+      })
